@@ -1,15 +1,36 @@
-# ProteusFold — Protein Tokenization (Notebook Documentation)
+# ProteusFold — Protein Folding Model (Notebook Documentation)
 
-This README was auto-generated from the Jupyter Notebook:
-`Copy_of_Yet_another_copy_of_Proteus_Finalized_version_Protein_Tokenization_working.ipynb`.
+## File Directory of this Repository
 
-## Project overview
-This project contains code and experiments for protein tokenization and structural encoding workflows. It includes helper utilities (checkpointing, download triggering), structural alignment (Kabsch), CSV/PDB helpers, tokenization pipelines (structural & atomic), encoders/dataloaders, training/evaluation scripts, PCA analysis, and utilities to convert between coordinates and tokens.
+### 1. Making atomic properties
+- `make_atom_residue_info.py`
+
+### 2. File for making unfolded protein
+- `make_unfolded_protein_from_sequence.py`
+
+### 3. Convert PDB files into CSV
+- `make_dataframe_using_biopandas.py`
+
+### 4. Combine unfolded and folded protein CSVs
+- `combine_new_dataframe.py`
+
+### 5. Combine all the dataframe CSVs into a single CSV
+- `combine_all_dataframes.py`
+
+### 6. Main notebook for ProteusFold
+- `ProteusFold_final_version.ipynb`  
+  *Please refer to the Table of Contents below for its internal structure.*
 
 ---
-## Table of Contents
+
+## Project Overview
+
+This project contains code and experiments for protein tokenization and structural encoding workflows.  
+It includes helper utilities (checkpointing, download triggering), structural alignment (Kabsch), CSV/PDB helpers, tokenization pipelines (structural & atomic), encoders/dataloaders, training/evaluation scripts, PCA analysis, and utilities to convert between coordinates and tokens.
 
 ---
+
+## Table of Contents — `ProteusFold_final_version.ipynb`
 
 ### Helper Functions
 - [User's Choice](#users-choice)
@@ -112,29 +133,17 @@ This project contains code and experiments for protein tokenization and structur
 
 ---
 
----
+## Suggested Dependencies (examples)
 
-## How to use
-1. Open the original notebook in JupyterLab/Jupyter Notebook.
-2. Use the notebook sections to run step-by-step: helper utilities → pre-processing (CSV/PDB) → tokenization → encoder/dataloader → training → evaluation.
-3. To reproduce results, ensure dependencies (listed below) are installed, set dataset paths in the declarations section, then run the training / evaluation cells.
-
----
-
-## Suggested dependencies (examples)
 - Python 3.8+
-- numpy
-- pandas
-- scikit-learn
-- torch (PyTorch)
-- biopython (for PDB handling)
-- py3Dmol
+- numpy  
+- pandas  
+- scikit-learn  
+- torch (PyTorch)  
+- biopython (for PDB handling)  
+- py3Dmol  
 
-(Install with `pip install numpy pandas scikit-learn torch biopython nbformat`)
+Install with:
 
--
----
-
-## Contact / Author
-This README was generated automatically from the notebook file. For manual edits or a more detailed user guide, update this file with usage examples and command-line snippets.
-
+```bash
+pip install numpy pandas scikit-learn torch biopython py3Dmol
