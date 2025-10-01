@@ -21,12 +21,6 @@
 - `ProteusFold_final_version.ipynb`  
   *Please refer to the Table of Contents below for its internal structure.*
 
----
-
-## Project Overview
-
-This project contains code and experiments for protein tokenization and structural encoding workflows.  
-It includes helper utilities (checkpointing, download triggering), structural alignment (Kabsch), CSV/PDB helpers, tokenization pipelines (structural & atomic), encoders/dataloaders, training/evaluation scripts, PCA analysis, and utilities to convert between coordinates and tokens.
 
 ---
 
@@ -133,17 +127,3 @@ It includes helper utilities (checkpointing, download triggering), structural al
 
 ---
 
-## Suggested Dependencies (examples)
-
-- Python 3.8+
-- numpy  
-- pandas  
-- scikit-learn  
-- torch (PyTorch)  
-- biopython (for PDB handling)  
-- py3Dmol  
-
-Install with:
-
-```bash
-pip install numpy pandas scikit-learn torch biopython py3Dmol
