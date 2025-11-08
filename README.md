@@ -1,4 +1,4 @@
-# ProteusFold---------------------- Updating as some issues are being addressed
+# SOME ISSUES HAVE BEEN DETECTED. I DO NOT WANT TO ESCAPE FROM ACCOUNTABILITY. I HAVE FOUND THE ERRORS AND UNDERSTAND THAT THERE REMAINS SOME AREAS I NEED TO FIX. WILL KEEP TRYING UNTIL I HAVE A FINISHED PRODUCT
 # ProteusFold — Protein Folding Model (Notebook Documentation)
 
 ## File Directory of this Repository
